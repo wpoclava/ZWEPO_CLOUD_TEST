@@ -12,14 +12,14 @@ ENDCLASS.
 
 
 
-CLASS zwepo_holamundo IMPLEMENTATION.
+CLASS ZWEPO_HOLAMUNDO IMPLEMENTATION.
 
 
   METHOD if_oo_adt_classrun~main.
 
     out->write(
       EXPORTING
-        data   = |Hola mundo en ABAP Cloud|
+        data   = |Hola mundo en ABAP Cloud, cambio en A4H 2022 on premise|
 *        name   =
 *      RECEIVING
 *        output =
